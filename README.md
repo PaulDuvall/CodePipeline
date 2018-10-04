@@ -1,6 +1,6 @@
 # CodePipeline Advanced FAQ
 
-AWS CodePipeline is a managed service that orchestrates workflow for continuous integration, continuous delivery, and continuous deployment. With CodePipeline, you define a series of stages composed of actions that perform tasks in a release process from a code commit all the way to production. It helps teams deliver changes to users whenever there’s a business need to do so.
+[AWS CodePipeline](https://aws.amazon.com/codepipeline/) is a managed service that orchestrates workflow for continuous integration, continuous delivery, and continuous deployment. With CodePipeline, you define a series of stages composed of actions that perform tasks in a release process from a code commit all the way to production. It helps teams deliver changes to users whenever there’s a business need to do so.
 
 If you use AWS CodePipeline for continuous delivery/deployment, one of the first pages you should visit is its FAQ at https://aws.amazon.com/codepipeline/faqs/. 
 
@@ -70,17 +70,16 @@ Artifact Store is an S3 bucket used to securely store CodePipeline artifacts. Wh
 
 Here’s an example of doing this in AWS CloudFormation: 
 
-  PipelineBucket:
-    Type: AWS::S3::Bucket
-    DeletionPolicy: Delete
-
+        PipelineBucket:
+          Type: AWS::S3::Bucket
+          DeletionPolicy: Delete
 
 1. Where and how are CodePipeline artifacts stored?
 Within the S3 bucket designated for the pipeline(s), there are S3 keys/folders. There’s a different key for each artifact name used across all pipelines.
 
 Here’s an example of the S3 keys within an S3 bucket. The names of keys are a truncated version of the Artifact names specified in CodePipeline when developers were creating their pipelines.   
 
-          ```Name: Source```
+          Name: Source
 
 
 1. How does CodePipeline encrypt artifacts in S3?
@@ -161,7 +160,6 @@ TBD
 
           Name: Source
 
-
 1. What’s the duration of the following provider types: CodeBuild, CodeDeploy, Lambda, CloudFormation, and Approval?
 
 Approval action: 7 days
@@ -170,8 +168,8 @@ AWS CodeBuild build action and test action: 8 hours
 AWS CodeDeploy deployment action: 7 days
 AWS Lambda invoke action: 1 hour
 
-Source
-
+          Name: Source
+          
 1. How do a I create a pipeline in one AWS account and access it from other AWS accounts?
 TBD
 
