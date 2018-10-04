@@ -2,9 +2,9 @@
 
 [AWS CodePipeline](https://aws.amazon.com/codepipeline/) is a managed service that orchestrates workflow for continuous integration, continuous delivery, and continuous deployment. With CodePipeline, you define a series of stages composed of actions that perform tasks in a release process from a code commit all the way to production. It helps teams deliver changes to users whenever there’s a business need to do so.
 
-If you use AWS CodePipeline for continuous delivery/deployment, one of the first pages you should visit is its FAQ at https://aws.amazon.com/codepipeline/faqs/. 
+If you use AWS CodePipeline for continuous delivery/deployment, one of the first pages you should visit its FAQ at https://aws.amazon.com/codepipeline/faqs/. 
 
-After you’ve gone through and used CodePipeline for your applications, you’ll probably want to learn more. If so, this blog post is a resource for you. In it, I go over the FAQ and, when appropriate, I provide more detailed examples along with more advanced topics with code and other examples. It’s intended as a more comprehensive view of the service.
+After you’ve gone through and used CodePipeline for your applications, you’ll probably want to learn more. If so, this README is a resource for you. In it, I go over the FAQ and, when appropriate, I provide more detailed examples along with more advanced topics with code and other examples. It’s intended as a more comprehensive view of the service.
 
 ## How do I specify parallel actions in CodePipeline?
 
