@@ -7,6 +7,7 @@ If you use AWS CodePipeline for continuous delivery/deployment, one of the first
 After you’ve gone through and used CodePipeline for your applications, you’ll probably want to learn more. If so, this blog post is a resource for you. In it, I go over the FAQ and, when appropriate, I provide more detailed examples along with more advanced topics with code and other examples. It’s intended as a more comprehensive view of the service.
 
 1. How do I specify parallel actions in CodePipeline?
+
 Use the same integration in the RunOrder for each action you want to run in parallel within a particular stage.
 
       - Name: Build
@@ -40,6 +41,7 @@ Use the same integration in the RunOrder for each action you want to run in para
           RunOrder: 1
 
 1. What are the currently supported action types?
+
 The only valid owner string is "AWS", "ThirdParty", or "Custom". 
 
 Here are examples of configuring action types in the AWS CloudFormation AWS::CodePipeline::Pipeline resource.
