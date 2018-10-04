@@ -169,10 +169,10 @@ TBD
 
 ## What’s the duration for actions of the following provider types: CodeBuild, CodeDeploy, Lambda, CloudFormation, and Approval?
 
-Approval action: 7 days
-AWS CloudFormation deployment action: 3 days
-AWS CodeBuild build action and test action: 8 hours
-AWS CodeDeploy deployment action: 7 days
+Approval action: 7 days 
+AWS CloudFormation deployment action: 3 days 
+AWS CodeBuild build action and test action: 8 hours 
+AWS CodeDeploy deployment action: 7 days 
 AWS Lambda invoke action: 1 hour
 
           Name: Source
