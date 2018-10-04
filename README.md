@@ -260,6 +260,7 @@ TBD
 TBD
 
 1. What are the different types of deployments and deploy providers?
+
 AWS CloudFormation
 Amazon ECS
 AWS CodeDeploy
