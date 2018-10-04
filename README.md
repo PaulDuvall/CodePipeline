@@ -151,9 +151,8 @@ Only one at a time. The result is that your feedback time might be slowed down i
 1. How do I obtain history for an individual pipeline?
 From the CodePipeline console, select a specific pipeline. From the pipeline, click on View pipeline history. From the AWS CLI, you  
 
-aws codepipeline list-pipeline-executions --pipeline-name MyFirstPipeline
-
-aws codepipeline get-pipeline-execution --pipeline-name MyFirstPipeline --pipeline-execution-id 7cf7f7cb-3137-539g-j458-d7eu3EXAMPLE
+          aws codepipeline list-pipeline-executions --pipeline-name MyFirstPipeline
+          aws codepipeline get-pipeline-execution --pipeline-name MyFirstPipeline --pipeline-execution-id 7cf7f7cb-3137-539g-j458-d7eu3EXAMPLE
 
 For more information, see View Pipeline Details and History in AWS CodePipeline.
 
