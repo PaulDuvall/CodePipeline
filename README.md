@@ -65,7 +65,6 @@ Here are examples of configuring action types in the AWS CloudFormation AWS::Cod
             Version: '1'
             Provider: CodeBuild
 
-
 1. What is the Artifact Store?
 Artifact Store is an S3 bucket used to securely store CodePipeline artifacts. When using the CodePipeline console in a region for the first time, CodePipeline automatically generates a new S3 bucket for all CodePipeline artifacts. You can also create your own S3 bucket and make a reference to the bucket from CodePipeline.
 
@@ -97,7 +96,7 @@ Here’s an example of disabling a transition using the CLI:
           Name: Source
 
 
-7. When and where does CodePipeline create an S3 bucket to store artifacts?
+1. When and where does CodePipeline create an S3 bucket to store artifacts?
 TBD
 
           Name: Source
@@ -174,13 +173,13 @@ AWS Lambda invoke action: 1 hour
 
 Source
 
-19. How do a I create a pipeline in one AWS account and access it from other AWS accounts?
+1. How do a I create a pipeline in one AWS account and access it from other AWS accounts?
 TBD
 
           Name: Source
 
 
-20. How do I use CloudWatch Events to notifications?
+1. How do I use CloudWatch Events to notifications?
 TBD
 
           Name: Source
@@ -209,61 +208,62 @@ TBD
 
 1. What are the maximum number of sequential actions in a stage?
 10
-25. What are the pipeline naming constraints?
+
+1. What are the pipeline naming constraints?
 TBD
 
           Name: Source
 
 
-26. What are maximum number of pipelines in an AWS account?
+1. What are maximum number of pipelines in an AWS account?
 TBD
 
           Name: Source
 
-27. How do I get CodePipeline statistics?
+1. How do I get CodePipeline statistics?
 TBD
 
           Name: Source
 
-28. How do I provide real-time dashboards for CodePipeline metrics?
-TBD
-
-          Name: Source
-
-
-29. What 3rd party product integrations are available with AWS CodePipeline?
+1. How do I provide real-time dashboards for CodePipeline metrics?
 TBD
 
           Name: Source
 
 
-
-30. How do I use CloudFormation Stack Sets and Change Sets with CodePipeline?
+1. What 3rd party product integrations are available with AWS CodePipeline?
 TBD
 
           Name: Source
 
 
-31. How to I get a JSON object representing a pipeline using the AWS CLI?
+
+1. How do I use CloudFormation Stack Sets and Change Sets with CodePipeline?
+TBD
+
+          Name: Source
+
+
+1. How to I get a JSON object representing a pipeline using the AWS CLI?
 By calling the get-pipeline command from the AWS CLI. This returns a JSON object describing all components of a specific pipeline including stages, actions, artifacts, artifact store, providers, configuration, etc. Below, you see an example of running this command. Below, MyFirstPipeline is the unique name of the pipeline for a particular region.    
 
 aws codepipeline get-pipeline --name MyFirstPipeline --region us-east-1
-32. How do I start a pipeline that’s not triggered by a source event?
+1. How do I start a pipeline that’s not triggered by a source event?
 TBD
 
-33. How do I provide read-only access to a specific pipeline when provisioning the pipeline in CloudFormation?
+1. How do I provide read-only access to a specific pipeline when provisioning the pipeline in CloudFormation?
 TBD
 
-34. What are the different types of deployments and deploy providers?
+1. What are the different types of deployments and deploy providers?
 AWS CloudFormation
 Amazon ECS
 AWS CodeDeploy
 AWS Elastic Beanstalk
 
-35. How do I enable AWS Config for CodePipeline?
+1. How do I enable AWS Config for CodePipeline?
 https://aws.amazon.com/about-aws/whats-new/2018/09/aws-config-adds-support-for-aws-codepipeline/ 
 
-36. What AWS service integrations are available with AWS CodePipeline?
+1. What AWS service integrations are available with AWS CodePipeline?
 AWS CloudFormation
 AWS CodeBuild
 AWS CodeCommit
