@@ -42,7 +42,7 @@ Use the same integration in the RunOrder for each action you want to run in para
 
 ## What are the currently supported action types?
 
-The only valid owner string is "AWS", "ThirdParty", or "Custom". 
+The only valid owner string is `AWS`, `ThirdParty`, or `Custom`. 
 
 Here are examples of configuring action types in the AWS CloudFormation AWS::CodePipeline::Pipeline resource.
 
