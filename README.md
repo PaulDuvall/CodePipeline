@@ -78,19 +78,21 @@ Here’s an example of doing this in AWS CloudFormation:
           DeletionPolicy: Delete
 
 1. Where and how are CodePipeline artifacts stored?
+
 Within the S3 bucket designated for the pipeline(s), there are S3 keys/folders. There’s a different key for each artifact name used across all pipelines.
 
 Here’s an example of the S3 keys within an S3 bucket. The names of keys are a truncated version of the Artifact names specified in CodePipeline when developers were creating their pipelines.   
 
           Name: Source
 
-
 1. How does CodePipeline encrypt artifacts in S3?
+
 CodePipeline automatically encrypts artifacts using the default KMS key. You may also customize this by creating a custom KMS and assign it to the S3 artifacts.
 
           Name: Source
 
 1. How do I disable and enable transitions?
+
 You can disable/enable transitions using the AWS Console, API, CLI, or SDK.
 
 Here’s an example of disabling a transition using the CLI:
