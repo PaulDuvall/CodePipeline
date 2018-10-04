@@ -260,10 +260,11 @@ TBD
 TBD
 
 1. What are the different types of deployments and deploy providers? 
+
 AWS CloudFormation 
 Amazon ECS 
 AWS CodeDeploy 
-AWS Elastic Beanstalk
+AWS Elastic Beanstalk 
 
 1. How do I enable AWS Config for CodePipeline?
 https://aws.amazon.com/about-aws/whats-new/2018/09/aws-config-adds-support-for-aws-codepipeline/ 
