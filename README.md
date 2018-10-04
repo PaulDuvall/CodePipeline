@@ -248,7 +248,7 @@ TBD
           Name: Source
 
 
-1. How to I get a JSON object representing a pipeline using the AWS CLI?
+## How to I get a JSON object representing a pipeline using the AWS CLI?
 By calling the get-pipeline command from the AWS CLI. This returns a JSON object describing all components of a specific pipeline including stages, actions, artifacts, artifact store, providers, configuration, etc. Below, you see an example of running this command. Below, MyFirstPipeline is the unique name of the pipeline for a particular region.    
 
           aws codepipeline get-pipeline --name MyFirstPipeline --region us-east-1
