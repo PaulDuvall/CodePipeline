@@ -65,6 +65,7 @@ Here are examples of configuring action types in the AWS CloudFormation AWS::Cod
             Version: '1'
             Provider: CodeBuild
 
+
 1. What is the Artifact Store?
 Artifact Store is an S3 bucket used to securely store CodePipeline artifacts. When using the CodePipeline console in a region for the first time, CodePipeline automatically generates a new S3 bucket for all CodePipeline artifacts. You can also create your own S3 bucket and make a reference to the bucket from CodePipeline.
 
