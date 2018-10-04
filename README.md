@@ -259,11 +259,10 @@ TBD
 1. How do I provide read-only access to a specific pipeline when provisioning the pipeline in CloudFormation?
 TBD
 
-1. What are the different types of deployments and deploy providers?
-
-AWS CloudFormation
-Amazon ECS
-AWS CodeDeploy
+1. What are the different types of deployments and deploy providers? 
+AWS CloudFormation 
+Amazon ECS 
+AWS CodeDeploy 
 AWS Elastic Beanstalk
 
 1. How do I enable AWS Config for CodePipeline?
