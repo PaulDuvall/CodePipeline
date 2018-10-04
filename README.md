@@ -44,7 +44,7 @@ Use the same integration in the RunOrder for each action you want to run in para
 
 The only valid owner string is `AWS`, `ThirdParty`, or `Custom`. 
 
-Here are examples of configuring action types in the AWS CloudFormation AWS::CodePipeline::Pipeline resource.
+Here are examples of configuring action types in the AWS CloudFormation [AWS::CodePipeline::Pipeline](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html) resource.
 
           Name: Source
           ActionTypeId:
